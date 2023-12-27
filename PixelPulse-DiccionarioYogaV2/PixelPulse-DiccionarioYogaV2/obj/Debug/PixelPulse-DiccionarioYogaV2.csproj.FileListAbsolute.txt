@@ -1,0 +1,17 @@
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\PixelPulse-DiccionarioYogaV2.exe.config
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\PixelPulse-DiccionarioYogaV2.exe
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\PixelPulse-DiccionarioYogaV2.pdb
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\Siticone.Desktop.UI.dll
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse-DiccionarioYogaV2.csproj.AssemblyReference.cache
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse-DiccionarioYogaV2.csproj.SuggestedBindingRedirects.cache
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse_DiccionarioYogaV2.Form1.resources
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse_DiccionarioYogaV2.Properties.Resources.resources
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse-DiccionarioYogaV2.csproj.GenerateResource.cache
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse-DiccionarioYogaV2.csproj.CoreCompileInputs.cache
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse-DiccionarioYogaV2.csproj.CopyComplete
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse-DiccionarioYogaV2.exe
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse-DiccionarioYogaV2.pdb
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\Res.resx
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse_DiccionarioYogaV2.Res.resources
