@@ -12,9 +12,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace PixelPulse_DiccionarioYogaV2
 {
-    public partial class Form1 : Form
+    public partial class AsanaSutra : Form
     {
-        public Form1()
+        public AsanaSutra()
         {
             InitializeComponent();
         }
@@ -58,13 +58,15 @@ namespace PixelPulse_DiccionarioYogaV2
             if (string.IsNullOrWhiteSpace(textoAMorfema))
             {
                 ResetearCampos();
-                MessageBox.Show("Por favor, ingrese la palabra que deseas traducir");
+                MessageBox.Show("El campo de busqueda está vacío. \nPor favor, ingrese una palabra para traducir.",
+                            "Error de entrada.", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;  // Salir del método si hay un error
             }
             if (textoAMorfema.All(char.IsDigit))
             {
                 BusquedaTextBox.Text = "";
-                MessageBox.Show("Por favor, ingrese un texto válido para la búsqueda.");
+                MessageBox.Show("El campo de busqueda solo debe contener letras. \nPor favor, ingrese una palabra que no sea solo números.",
+                            "Error de entrada.", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;  // Salir del método si hay un error
             }
 
@@ -73,7 +75,8 @@ namespace PixelPulse_DiccionarioYogaV2
             // Verificar si la cadena contiene un signo de subrayado (_) o un punto (.)
             if (textoAMorfema.Contains("_") || textoAMorfema.Contains("."))
             {
-                MessageBox.Show("La palabra no debe contener signos ");
+                MessageBox.Show("El campo de busqueda no debe contener signos de puntuación. \nPor favor, ingrese una palabra sin signos de puntuación.",
+                            "Error de entrada.", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -87,14 +90,18 @@ namespace PixelPulse_DiccionarioYogaV2
             ENTextBox.Text = await Traductor.Traducir(postura.GetDescripcion());
             if (ENTextBox.Equals(string.Empty))
             {
-                MessageBox.Show("Lo sentimos no se ha realizado la traducción");
+                MessageBox.Show("No se ha podido realizar la traducción. \nPor favor, intente nuevamente más tarde.",
+                            "Error de traducción.", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+
             }
             string traduccionAEs = postura.TraducirAEs(textoAMorfema);
             if (traduccionAEs == null)
             {
 
                 ENTextBox.Text = "";
-                MessageBox.Show($"La palabra '{textoAMorfema}' no se encuentra en el diccionario");
+                MessageBox.Show($"La palabra '{@textoAMorfema}' no se encuentra en el diccionario. \nPor favor, ingrese una palabra que esté en el diccionario.",
+                            $"Palabra no encontrada.", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             ReproducirVideo(postura.GetVideo());
@@ -137,6 +144,11 @@ namespace PixelPulse_DiccionarioYogaV2
         }
 
         private void siticoneHtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AsanaSutra_Load(object sender, EventArgs e)
         {
 
         }

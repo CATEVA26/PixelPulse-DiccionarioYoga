@@ -1,6 +1,6 @@
 ﻿namespace PixelPulse_DiccionarioYogaV2
 {
-    partial class Form1
+    partial class AsanaSutra
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AsanaSutra));
             this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.BusquedaButton = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.BusquedaTextBox = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
@@ -50,9 +50,10 @@
             // 
             this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Sitka Banner", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(443, 12);
+            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(591, 15);
+            this.siticoneHtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
-            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(226, 41);
+            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(289, 51);
             this.siticoneHtmlLabel1.TabIndex = 0;
             this.siticoneHtmlLabel1.Text = "Diccionario de Asanas";
             this.siticoneHtmlLabel1.Click += new System.EventHandler(this.siticoneHtmlLabel1_Click);
@@ -70,9 +71,10 @@
             this.BusquedaButton.ForeColor = System.Drawing.Color.White;
             this.BusquedaButton.Image = ((System.Drawing.Image)(resources.GetObject("BusquedaButton.Image")));
             this.BusquedaButton.ImageSize = new System.Drawing.Size(32, 32);
-            this.BusquedaButton.Location = new System.Drawing.Point(702, 66);
+            this.BusquedaButton.Location = new System.Drawing.Point(903, 81);
+            this.BusquedaButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BusquedaButton.Name = "BusquedaButton";
-            this.BusquedaButton.Size = new System.Drawing.Size(49, 45);
+            this.BusquedaButton.Size = new System.Drawing.Size(65, 55);
             this.BusquedaButton.TabIndex = 2;
             this.BusquedaButton.Click += new System.EventHandler(this.BusquedaButton_Click);
             // 
@@ -88,13 +90,13 @@
             this.BusquedaTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.BusquedaTextBox.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BusquedaTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.BusquedaTextBox.Location = new System.Drawing.Point(432, 66);
-            this.BusquedaTextBox.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.BusquedaTextBox.Location = new System.Drawing.Point(576, 81);
+            this.BusquedaTextBox.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.BusquedaTextBox.Name = "BusquedaTextBox";
             this.BusquedaTextBox.PasswordChar = '\0';
             this.BusquedaTextBox.PlaceholderText = "";
             this.BusquedaTextBox.SelectedText = "";
-            this.BusquedaTextBox.Size = new System.Drawing.Size(237, 50);
+            this.BusquedaTextBox.Size = new System.Drawing.Size(316, 62);
             this.BusquedaTextBox.TabIndex = 3;
             this.BusquedaTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.BusquedaTextBox_KeyPress);
             // 
@@ -102,9 +104,10 @@
             // 
             this.siticoneHtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel2.Font = new System.Drawing.Font("Sitka Banner", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel2.Location = new System.Drawing.Point(94, 145);
+            this.siticoneHtmlLabel2.Location = new System.Drawing.Point(125, 178);
+            this.siticoneHtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.siticoneHtmlLabel2.Name = "siticoneHtmlLabel2";
-            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(162, 32);
+            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(200, 40);
             this.siticoneHtmlLabel2.TabIndex = 4;
             this.siticoneHtmlLabel2.Text = "Traducción Español";
             this.siticoneHtmlLabel2.Click += new System.EventHandler(this.siticoneHtmlLabel2_Click);
@@ -115,20 +118,23 @@
             this.ESTextBox.BackColor = System.Drawing.Color.White;
             this.ESTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ESTextBox.Font = new System.Drawing.Font("Sitka Banner", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ESTextBox.Location = new System.Drawing.Point(94, 193);
-            this.ESTextBox.MinimumSize = new System.Drawing.Size(350, 0);
+            this.ESTextBox.Location = new System.Drawing.Point(125, 238);
+            this.ESTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ESTextBox.MinimumSize = new System.Drawing.Size(466, 2);
             this.ESTextBox.Name = "ESTextBox";
-            this.ESTextBox.Size = new System.Drawing.Size(352, 34);
+            this.ESTextBox.Size = new System.Drawing.Size(469, 41);
             this.ESTextBox.TabIndex = 5;
+            this.ESTextBox.Text = null;
             this.ESTextBox.Click += new System.EventHandler(this.lblTEs_Click);
             // 
             // siticoneHtmlLabel4
             // 
             this.siticoneHtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel4.Font = new System.Drawing.Font("Sitka Banner", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel4.Location = new System.Drawing.Point(94, 244);
+            this.siticoneHtmlLabel4.Location = new System.Drawing.Point(125, 300);
+            this.siticoneHtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.siticoneHtmlLabel4.Name = "siticoneHtmlLabel4";
-            this.siticoneHtmlLabel4.Size = new System.Drawing.Size(147, 32);
+            this.siticoneHtmlLabel4.Size = new System.Drawing.Size(180, 40);
             this.siticoneHtmlLabel4.TabIndex = 6;
             this.siticoneHtmlLabel4.Text = "Traducción Inglés";
             this.siticoneHtmlLabel4.Click += new System.EventHandler(this.siticoneHtmlLabel4_Click);
@@ -137,9 +143,10 @@
             // 
             this.siticoneHtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel6.Font = new System.Drawing.Font("Sitka Banner", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(92, 333);
+            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(123, 410);
+            this.siticoneHtmlLabel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.siticoneHtmlLabel6.Name = "siticoneHtmlLabel6";
-            this.siticoneHtmlLabel6.Size = new System.Drawing.Size(85, 32);
+            this.siticoneHtmlLabel6.Size = new System.Drawing.Size(104, 40);
             this.siticoneHtmlLabel6.TabIndex = 8;
             this.siticoneHtmlLabel6.Text = "Morfemas";
             // 
@@ -149,11 +156,13 @@
             this.MorfemaTextBox.BackColor = System.Drawing.Color.White;
             this.MorfemaTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.MorfemaTextBox.Font = new System.Drawing.Font("Sitka Banner", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MorfemaTextBox.Location = new System.Drawing.Point(93, 371);
-            this.MorfemaTextBox.MinimumSize = new System.Drawing.Size(98, 0);
+            this.MorfemaTextBox.Location = new System.Drawing.Point(124, 457);
+            this.MorfemaTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MorfemaTextBox.MinimumSize = new System.Drawing.Size(130, 2);
             this.MorfemaTextBox.Name = "MorfemaTextBox";
-            this.MorfemaTextBox.Size = new System.Drawing.Size(353, 136);
+            this.MorfemaTextBox.Size = new System.Drawing.Size(470, 167);
             this.MorfemaTextBox.TabIndex = 9;
+            this.MorfemaTextBox.Text = null;
             // 
             // ENTextBox
             // 
@@ -161,20 +170,23 @@
             this.ENTextBox.BackColor = System.Drawing.Color.White;
             this.ENTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ENTextBox.Font = new System.Drawing.Font("Sitka Banner", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ENTextBox.Location = new System.Drawing.Point(94, 282);
-            this.ENTextBox.MinimumSize = new System.Drawing.Size(350, 0);
+            this.ENTextBox.Location = new System.Drawing.Point(125, 347);
+            this.ENTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ENTextBox.MinimumSize = new System.Drawing.Size(466, 2);
             this.ENTextBox.Name = "ENTextBox";
-            this.ENTextBox.Size = new System.Drawing.Size(352, 34);
+            this.ENTextBox.Size = new System.Drawing.Size(469, 41);
             this.ENTextBox.TabIndex = 10;
+            this.ENTextBox.Text = null;
             // 
             // lblPostura
             // 
             this.lblPostura.AutoSize = false;
             this.lblPostura.BackColor = System.Drawing.Color.Transparent;
             this.lblPostura.Font = new System.Drawing.Font("Sitka Banner", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPostura.Location = new System.Drawing.Point(477, 146);
+            this.lblPostura.Location = new System.Drawing.Point(636, 180);
+            this.lblPostura.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lblPostura.Name = "lblPostura";
-            this.lblPostura.Size = new System.Drawing.Size(630, 41);
+            this.lblPostura.Size = new System.Drawing.Size(840, 50);
             this.lblPostura.TabIndex = 12;
             this.lblPostura.Text = "Postura";
             this.lblPostura.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -183,10 +195,11 @@
             // videoPostura
             // 
             this.videoPostura.Location = new System.Drawing.Point(0, 0);
-            this.videoPostura.MinimumSize = new System.Drawing.Size(624, 385);
+            this.videoPostura.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.videoPostura.MinimumSize = new System.Drawing.Size(832, 474);
             this.videoPostura.Name = "videoPostura";
             this.videoPostura.ScrollBarsEnabled = false;
-            this.videoPostura.Size = new System.Drawing.Size(624, 385);
+            this.videoPostura.Size = new System.Drawing.Size(832, 474);
             this.videoPostura.TabIndex = 0;
             // 
             // siticonePanel1
@@ -197,17 +210,18 @@
             this.siticonePanel1.BorderThickness = 5;
             this.siticonePanel1.Controls.Add(this.videoPostura);
             this.siticonePanel1.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.siticonePanel1.Location = new System.Drawing.Point(477, 193);
-            this.siticonePanel1.MinimumSize = new System.Drawing.Size(645, 415);
+            this.siticonePanel1.Location = new System.Drawing.Point(636, 238);
+            this.siticonePanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticonePanel1.MinimumSize = new System.Drawing.Size(860, 511);
             this.siticonePanel1.Name = "siticonePanel1";
-            this.siticonePanel1.Size = new System.Drawing.Size(645, 415);
+            this.siticonePanel1.Size = new System.Drawing.Size(860, 511);
             this.siticonePanel1.TabIndex = 11;
             // 
-            // Form1
+            // AsanaSutra
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1196, 639);
+            this.ClientSize = new System.Drawing.Size(1595, 786);
             this.Controls.Add(this.lblPostura);
             this.Controls.Add(this.siticonePanel1);
             this.Controls.Add(this.ENTextBox);
@@ -219,8 +233,11 @@
             this.Controls.Add(this.BusquedaTextBox);
             this.Controls.Add(this.BusquedaButton);
             this.Controls.Add(this.siticoneHtmlLabel1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "AsanaSutra";
+            this.Text = "Asana Sutra";
+            this.Load += new System.EventHandler(this.AsanaSutra_Load);
             this.siticonePanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
