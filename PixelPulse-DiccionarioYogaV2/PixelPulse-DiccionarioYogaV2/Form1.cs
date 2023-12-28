@@ -12,11 +12,12 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace PixelPulse_DiccionarioYogaV2
 {
-    public partial class AsanaSutra : Form
+    public partial class Form1 : Form
     {
-        public AsanaSutra()
+        public Form1()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void siticoneHtmlLabel1_Click(object sender, EventArgs e)
@@ -149,6 +150,11 @@ namespace PixelPulse_DiccionarioYogaV2
         }
 
         private void AsanaSutra_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BusquedaTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }
