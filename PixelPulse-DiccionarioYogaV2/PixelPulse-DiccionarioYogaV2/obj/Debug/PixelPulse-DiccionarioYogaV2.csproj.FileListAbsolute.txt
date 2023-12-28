@@ -15,3 +15,19 @@ C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio
 C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\Newtonsoft.Json.dll
 C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\Newtonsoft.Json.xml
 C:\Users\TEFAS\OneDrive - Escuela Politécnica Nacional\Documentos\Visual Studio 2022\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse_DiccionarioYogaV2.Res.resources
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse-DiccionarioYogaV2.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse_DiccionarioYogaV2.Properties.Resources.resources
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse_DiccionarioYogaV2.Res.resources
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse-DiccionarioYogaV2.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse-DiccionarioYogaV2.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse-DiccionarioYogaV2.exe
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse-DiccionarioYogaV2.pdb
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\Res.resx
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\PixelPulse-DiccionarioYogaV2.exe.config
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\PixelPulse-DiccionarioYogaV2.exe
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\PixelPulse-DiccionarioYogaV2.pdb
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\Siticone.Desktop.UI.dll
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse_DiccionarioYogaV2.Form1.resources
+C:\Users\Usuario\Documents\0Materias\Calidad de SW\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV2\PixelPulse-DiccionarioYogaV2\obj\Debug\PixelPulse-DiccionarioYogaV2.csproj.CopyComplete
