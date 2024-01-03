@@ -1,7 +1,7 @@
 
 # AsanaSutra
 Diccionario de posturas de yoga con traducciones de sánscrito a español e inglés puede mejorar significativamente la comprensión, práctica y aprecio del yoga para una audiencia más amplia, promoviendo la inclusividad y enriqueciendo la experiencia de los practicantes.
-![](https://static.vecteezy.com/system/resources/previews/016/390/587/original/yoga-and-meditation-logo-free-png.png)
+![](http://imgfz.com/i/qcX08nb.png)
 
 ## Tabla de contenido:
 
@@ -52,8 +52,8 @@ Instar el proyecto Via Git
 
 
 ## Acerca de los desarrolladores
-### PixelPulze
-![Logo](http://imgfz.com/i/9IHY2M0.png)
+### PixelPulse
+![Logo](https://i.postimg.cc/bJQ42cQZ/logo-Pixel.png)
 
 Somos un grupo de estudiantes con la intención de crear software de calidad aprovechando la diversidad y creatividad de los estudiantes, proporcionando así una valiosa experiencia de aprendizaje que contribuye al desarrollo de soluciones tecnológicas beneficiosas para el público.
 
