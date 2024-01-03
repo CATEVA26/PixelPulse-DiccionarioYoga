@@ -55,7 +55,7 @@ Instar el proyecto Via Git
 ### PixelPulze
 ![Logo](http://imgfz.com/i/9IHY2M0.png)
 
-Somos un grupo de estudiantes con la intención de crear software de calidad aprovechando la diversidad y creatividad de los estudiantes,proporcionando así una valiosa experiencia de aprendizaje que contribuye al desarrollo de soluciones tecnológicas beneficiosas para el público.
+Somos un grupo de estudiantes con la intención de crear software de calidad aprovechando la diversidad y creatividad de los estudiantes, proporcionando así una valiosa experiencia de aprendizaje que contribuye al desarrollo de soluciones tecnológicas beneficiosas para el público.
 
 
 ## Colores usados
