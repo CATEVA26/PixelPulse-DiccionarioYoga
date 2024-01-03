@@ -6,7 +6,7 @@ Diccionario de posturas de yoga con traducciones de sánscrito a español e ingl
 ## Tabla de contenido:
 
 - [Descripción y contexto](#descripción-y-contexto)
-- [Funcionalidad](#uso-de-la-aplicación)
+- [Funcionalidad](#funcionalidad)
 - [Instalación](#instalación)
 - [Acerca de los desarrolladores](#acerca-de-los-desarrolladores)
 - [Colores usados](#colores-usados)
@@ -14,7 +14,6 @@ Diccionario de posturas de yoga con traducciones de sánscrito a español e ingl
 - [Preguntas más frecuentes](#preguntas-más-frecuentes)
 - [Optimizaciones](#optimizaciones)
 - [Documentación](#documentación)
-
 
 ## Descripción y contexto
 
@@ -51,15 +50,12 @@ Instar el proyecto Via Git
 
 [![Packagist](https://img.shields.io/packagist/v/almasaeed2010/adminlte.svg)](https://packagist.org/packages/almasaeed2010/adminlte)
 
-    
 
 ## Acerca de los desarrolladores
 ### PixelPulze
 ![Logo](http://imgfz.com/i/9IHY2M0.png)
 
 Somos un grupo de estudiantes con la intención de crear software de calidad aprovechando la diversidad y creatividad de los estudiantes,proporcionando así una valiosa experiencia de aprendizaje que contribuye al desarrollo de soluciones tecnológicas beneficiosas para el público.
-
-
 
 
 ## Colores usados
@@ -79,9 +75,7 @@ Somos un grupo de estudiantes con la intención de crear software de calidad apr
 - [@Daniel Mera](https://github.com/DanielMeraV)
 - [@Britanny Flores](https://github.com/brits5)
 - [@George Quishpe](https://github.com/mquishpe)
-
-
-
+- [@Kevin Sailema](https://github.com/Kevvvvn)
 
 
 ## Preguntas más frecuentes
@@ -104,4 +98,5 @@ segundos.
 ## Documentación
 
 [Documentación](https://github.com/CATEVA26/PixelPulse-DiccionarioYoga/tree/main/Documentacion%20V2)
+
 
