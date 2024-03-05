@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\georg\\OneDrive\\Documents\\GitHub\\PixelPulse-DiccionarioYoga\\PixelPulse-DiccionarioYogaV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E182E0B8-8C84-490A-8D0E-1D77FA783E05}|PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2.csproj|c:\\users\\georg\\onedrive\\documents\\github\\pixelpulse-diccionarioyoga\\pixelpulse-diccionarioyogav2\\pixelpulse-diccionarioyogav2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182E0B8-8C84-490A-8D0E-1D77FA783E05}|PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2.csproj|solutionrelative:pixelpulse-diccionarioyogav2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182E0B8-8C84-490A-8D0E-1D77FA783E05}|PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2.csproj|c:\\users\\georg\\onedrive\\documents\\github\\pixelpulse-diccionarioyoga\\pixelpulse-diccionarioyogav2\\pixelpulse-diccionarioyogav2\\res1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182E0B8-8C84-490A-8D0E-1D77FA783E05}|PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2.csproj|solutionrelative:pixelpulse-diccionarioyogav2\\res1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182E0B8-8C84-490A-8D0E-1D77FA783E05}|PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2.csproj|c:\\users\\georg\\onedrive\\documents\\github\\pixelpulse-diccionarioyoga\\pixelpulse-diccionarioyogav2\\pixelpulse-diccionarioyogav2\\morfema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182E0B8-8C84-490A-8D0E-1D77FA783E05}|PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2.csproj|solutionrelative:pixelpulse-diccionarioyogav2\\morfema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182E0B8-8C84-490A-8D0E-1D77FA783E05}|PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2.csproj|c:\\users\\georg\\onedrive\\documents\\github\\pixelpulse-diccionarioyoga\\pixelpulse-diccionarioyogav2\\pixelpulse-diccionarioyogav2\\res.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182E0B8-8C84-490A-8D0E-1D77FA783E05}|PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2.csproj|solutionrelative:pixelpulse-diccionarioyogav2\\res.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182E0B8-8C84-490A-8D0E-1D77FA783E05}|PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2.csproj|c:\\users\\georg\\onedrive\\documents\\github\\pixelpulse-diccionarioyoga\\pixelpulse-diccionarioyogav2\\pixelpulse-diccionarioyogav2\\postura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182E0B8-8C84-490A-8D0E-1D77FA783E05}|PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2.csproj|solutionrelative:pixelpulse-diccionarioyogav2\\postura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E182E0B8-8C84-490A-8D0E-1D77FA783E05}|PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2.csproj|c:\\users\\georg\\onedrive\\documents\\github\\pixelpulse-diccionarioyoga\\pixelpulse-diccionarioyogav2\\pixelpulse-diccionarioyogav2\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E182E0B8-8C84-490A-8D0E-1D77FA783E05}|PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2.csproj|solutionrelative:pixelpulse-diccionarioyogav2\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\OneDrive\\Documents\\GitHub\\PixelPulse-DiccionarioYoga\\PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2\\Form1.cs",
+              "RelativeDocumentMoniker": "PixelPulse-DiccionarioYogaV2\\Form1.cs",
+              "ToolTip": "C:\\Users\\georg\\OneDrive\\Documents\\GitHub\\PixelPulse-DiccionarioYoga\\PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2\\Form1.cs",
+              "RelativeToolTip": "PixelPulse-DiccionarioYogaV2\\Form1.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAQwEQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T21:11:57.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Res.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\OneDrive\\Documents\\GitHub\\PixelPulse-DiccionarioYoga\\PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2\\Res.Designer.cs",
+              "RelativeDocumentMoniker": "PixelPulse-DiccionarioYogaV2\\Res.Designer.cs",
+              "ToolTip": "C:\\Users\\georg\\OneDrive\\Documents\\GitHub\\PixelPulse-DiccionarioYoga\\PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2\\Res.Designer.cs",
+              "RelativeToolTip": "PixelPulse-DiccionarioYogaV2\\Res.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T21:04:58.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Res1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\OneDrive\\Documents\\GitHub\\PixelPulse-DiccionarioYoga\\PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2\\Res1.Designer.cs",
+              "RelativeDocumentMoniker": "PixelPulse-DiccionarioYogaV2\\Res1.Designer.cs",
+              "ToolTip": "C:\\Users\\georg\\OneDrive\\Documents\\GitHub\\PixelPulse-DiccionarioYoga\\PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2\\Res1.Designer.cs",
+              "RelativeToolTip": "PixelPulse-DiccionarioYogaV2\\Res1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T21:04:55.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Morfema.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\OneDrive\\Documents\\GitHub\\PixelPulse-DiccionarioYoga\\PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2\\Morfema.cs",
+              "RelativeDocumentMoniker": "PixelPulse-DiccionarioYogaV2\\Morfema.cs",
+              "ToolTip": "C:\\Users\\georg\\OneDrive\\Documents\\GitHub\\PixelPulse-DiccionarioYoga\\PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2\\Morfema.cs",
+              "RelativeToolTip": "PixelPulse-DiccionarioYogaV2\\Morfema.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T21:04:23.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Video.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\OneDrive\\Documents\\GitHub\\PixelPulse-DiccionarioYoga\\PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2\\Video.cs",
+              "RelativeDocumentMoniker": "PixelPulse-DiccionarioYogaV2\\Video.cs",
+              "ToolTip": "C:\\Users\\georg\\OneDrive\\Documents\\GitHub\\PixelPulse-DiccionarioYoga\\PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2\\Video.cs",
+              "RelativeToolTip": "PixelPulse-DiccionarioYogaV2\\Video.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T20:52:33.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Postura.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\OneDrive\\Documents\\GitHub\\PixelPulse-DiccionarioYoga\\PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2\\Postura.cs",
+              "RelativeDocumentMoniker": "PixelPulse-DiccionarioYogaV2\\Postura.cs",
+              "ToolTip": "C:\\Users\\georg\\OneDrive\\Documents\\GitHub\\PixelPulse-DiccionarioYoga\\PixelPulse-DiccionarioYogaV2\\PixelPulse-DiccionarioYogaV2\\Postura.cs",
+              "RelativeToolTip": "PixelPulse-DiccionarioYogaV2\\Postura.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T20:51:53.418Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
