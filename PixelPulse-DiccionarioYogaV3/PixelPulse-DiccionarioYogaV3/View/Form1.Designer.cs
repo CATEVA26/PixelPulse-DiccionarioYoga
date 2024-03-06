@@ -37,7 +37,6 @@
             this.ESTextBox = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel4 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel6 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.MorfemaTextBox = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.ENTextBox = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneAnimateWindow1 = new Siticone.Desktop.UI.WinForms.SiticoneAnimateWindow(this.components);
             this.lblPostura = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
@@ -46,6 +45,7 @@
             this.siticoneTextBox1 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneTextBox2 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneButton1 = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+            this.MorfemasLB = new System.Windows.Forms.ListBox();
             this.siticonePanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -149,19 +149,6 @@
             this.siticoneHtmlLabel6.TabIndex = 8;
             this.siticoneHtmlLabel6.Text = "Morfemas";
             // 
-            // MorfemaTextBox
-            // 
-            this.MorfemaTextBox.AutoSize = false;
-            this.MorfemaTextBox.BackColor = System.Drawing.Color.White;
-            this.MorfemaTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.MorfemaTextBox.Font = new System.Drawing.Font("Sitka Banner", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MorfemaTextBox.Location = new System.Drawing.Point(53, 424);
-            this.MorfemaTextBox.MinimumSize = new System.Drawing.Size(98, 2);
-            this.MorfemaTextBox.Name = "MorfemaTextBox";
-            this.MorfemaTextBox.Size = new System.Drawing.Size(353, 136);
-            this.MorfemaTextBox.TabIndex = 9;
-            this.MorfemaTextBox.Text = null;
-            // 
             // ENTextBox
             // 
             this.ENTextBox.AutoSize = false;
@@ -208,7 +195,7 @@
             this.siticonePanel1.Location = new System.Drawing.Point(488, 197);
             this.siticonePanel1.MinimumSize = new System.Drawing.Size(645, 415);
             this.siticonePanel1.Name = "siticonePanel1";
-            this.siticonePanel1.Size = new System.Drawing.Size(645, 415);
+            this.siticonePanel1.Size = new System.Drawing.Size(645, 563);
             this.siticonePanel1.TabIndex = 11;
             // 
             // siticoneTextBox1
@@ -275,17 +262,27 @@
             this.siticoneButton1.Text = "Nueva Postura";
             this.siticoneButton1.Click += new System.EventHandler(this.siticoneButton1_Click);
             // 
+            // MorfemasLB
+            // 
+            this.MorfemasLB.Font = new System.Drawing.Font("Sitka Banner", 15.75F);
+            this.MorfemasLB.FormattingEnabled = true;
+            this.MorfemasLB.ItemHeight = 30;
+            this.MorfemasLB.Location = new System.Drawing.Point(55, 424);
+            this.MorfemasLB.Name = "MorfemasLB";
+            this.MorfemasLB.Size = new System.Drawing.Size(352, 124);
+            this.MorfemasLB.TabIndex = 15;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1178, 665);
+            this.Controls.Add(this.MorfemasLB);
             this.Controls.Add(this.siticoneButton1);
             this.Controls.Add(this.lblPostura);
             this.Controls.Add(this.siticonePanel1);
             this.Controls.Add(this.ENTextBox);
-            this.Controls.Add(this.MorfemaTextBox);
             this.Controls.Add(this.siticoneHtmlLabel6);
             this.Controls.Add(this.siticoneHtmlLabel4);
             this.Controls.Add(this.ESTextBox);
@@ -314,7 +311,6 @@
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel ESTextBox;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel4;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel6;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel MorfemaTextBox;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel ENTextBox;
         private Siticone.Desktop.UI.WinForms.SiticoneAnimateWindow siticoneAnimateWindow1;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel lblPostura;
@@ -323,6 +319,7 @@
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox1;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox2;
         private Siticone.Desktop.UI.WinForms.SiticoneButton siticoneButton1;
+        private System.Windows.Forms.ListBox MorfemasLB;
     }
 }
 

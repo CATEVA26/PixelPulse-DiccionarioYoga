@@ -1,5 +1,6 @@
 ﻿using PixelPulse_DiccionarioYogaV3.DAO;
 using PixelPulse_DiccionarioYogaV3.Model;
+using Siticone.Desktop.UI.WinForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -23,7 +24,6 @@ namespace PixelPulse_DiccionarioYogaV3.View
 
             CargarMorfemas();
             MorfemaCB.SelectedIndex = 0;
-
         }
 
         public void CargarMorfemas()
@@ -51,26 +51,26 @@ namespace PixelPulse_DiccionarioYogaV3.View
 
         private void GuardarPosturaB_Click(object sender, EventArgs e)
         {
-            Postura postura = new Postura();
-            postura.NombreSans = NombreSansTB.Text;
-            postura.NombreEn = NombreEsTB.Text;
-            postura.NombreEn = NombreEnTB.Text;
-            postura.VideoURL = VideoUrlTB.Text;
-
-            PosturaDAO.Insertar(postura);
-
-            Postura posturaAux = (Postura)PosturaDAO.getBySans(postura.NombreSans);
-
-
-            foreach (DataGridViewRow row in MorfemasDG.Rows)
+            if (Validador.ValidarCampos(this)) 
             {
-                int idMorfema = (int)row.Cells[0].Value;
-                PosturaDAO.insertarRelacionMorfemaPostura(posturaAux.IdPostura, idMorfema);
+                Postura postura = new Postura();
+                postura.NombreSans = NombreSansTB.Text;
+                postura.NombreEn = NombreEsTB.Text;
+                postura.NombreEn = NombreEnTB.Text;
+                postura.VideoURL = VideoUrlTB.Text;
+
+                PosturaDAO.Insertar(postura);
+
+                Postura posturaAux = (Postura)PosturaDAO.getBySans(postura.NombreSans);
+
+
+                foreach (DataGridViewRow row in MorfemasDG.Rows)
+                {
+                    int idMorfema = (int)row.Cells[0].Value;
+                    PosturaDAO.insertarRelacionMorfemaPostura(posturaAux.IdPostura, idMorfema);
+                }
+                Close();
             }
-            Close();
-
-
-
         }
 
         private void MorfemasDG_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -96,5 +96,7 @@ namespace PixelPulse_DiccionarioYogaV3.View
             aniadirMorfema.ShowDialog();
             CargarMorfemas();
         }
+
+
     }
 }

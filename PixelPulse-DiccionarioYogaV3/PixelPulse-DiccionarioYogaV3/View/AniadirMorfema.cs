@@ -21,12 +21,15 @@ namespace PixelPulse_DiccionarioYogaV3.View
 
         private void GuardarPosturaB_Click(object sender, EventArgs e)
         {
-            Morfema morfema = new Morfema();
-            morfema.MorfemaSans = MorfemaSansTB.Text;
-            morfema.MorfemaEs = MorfemaEsTB.Text;
+            if (Validador.ValidarCampos(this))
+            {
+                Morfema morfema = new Morfema();
+                morfema.MorfemaSans = MorfemaSansTB.Text;
+                morfema.MorfemaEs = MorfemaEsTB.Text;
 
-            MorfemaDAO.Insertar(morfema);
-            Close();
+                MorfemaDAO.Insertar(morfema);
+                Close();
+            }
         }
 
         private void CancelarB_Click(object sender, EventArgs e)

@@ -144,7 +144,7 @@
             this.Controls.Add(this.siticoneHtmlLabel1);
             this.Name = "AniadirMorfema";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AniadirMorfema";
+            this.Text = "Añadir Morfema";
             this.ResumeLayout(false);
             this.PerformLayout();
 

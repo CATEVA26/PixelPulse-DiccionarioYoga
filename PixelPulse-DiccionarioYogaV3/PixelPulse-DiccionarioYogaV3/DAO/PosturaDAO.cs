@@ -10,6 +10,7 @@ namespace PixelPulse_DiccionarioYogaV3.DAO
 {
     public class PosturaDAO : ObjBaseDAO
     {
+        // Método para eliminar una postura de la base de datos
         public static void Eliminar(object obj)
         {
             int idPostura = (int)obj;
@@ -26,6 +27,7 @@ namespace PixelPulse_DiccionarioYogaV3.DAO
 
         }
 
+        // Método para insertar una nueva postura en la base de datos
         public static void Insertar(object obj)
         {
             Postura postura = (Postura)obj;
@@ -36,7 +38,7 @@ namespace PixelPulse_DiccionarioYogaV3.DAO
                 using (MySqlCommand comando = new MySqlCommand(query, conexion))
                 {
                     comando.Parameters.AddWithValue("@nombreSans", postura.NombreSans);
-                    comando.Parameters.AddWithValue("@traduccionEs", postura.NombreEn);
+                    comando.Parameters.AddWithValue("@traduccionEs", postura.NombreEs);
                     comando.Parameters.AddWithValue("@traduccionEn", postura.NombreEn);
                     comando.Parameters.AddWithValue("@videoURL", postura.VideoURL);
                     comando.ExecuteNonQuery();
@@ -44,6 +46,7 @@ namespace PixelPulse_DiccionarioYogaV3.DAO
             }
         }
 
+        // Método para obtener una postura por su nombre en sánscrito
         public static object getBySans(object obj)
         {
             string nombreSans = (string)obj;
@@ -62,7 +65,7 @@ namespace PixelPulse_DiccionarioYogaV3.DAO
                             postura.IdPostura = reader.GetInt32(0);
                             postura.NombreSans = reader.GetString(1);
                             postura.NombreEn = reader.GetString(2);
-                            postura.NombreEn = reader.GetString(3);
+                            postura.NombreEs = reader.GetString(3);
                             postura.VideoURL = reader.GetString(4);
                         }
                     }
@@ -71,6 +74,7 @@ namespace PixelPulse_DiccionarioYogaV3.DAO
             return postura;
         }
 
+        // Método para obtener la información de una postura y sus morfemas asociados
         public static object getPosturaInfo(object obj)
         {
             Postura postura = getBySans(obj) as Postura;

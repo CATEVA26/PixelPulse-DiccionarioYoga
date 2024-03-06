@@ -96,6 +96,7 @@
     <Compile Include="DAO\MorfemaDAO.cs" />
     <Compile Include="DAO\ObjBaseDAO.cs" />
     <Compile Include="DAO\PosturaDAO.cs" />
+    <Compile Include="Model\Validador.cs" />
     <Compile Include="View\AniadirMorfema.cs">
       <SubType>Form</SubType>
     </Compile>

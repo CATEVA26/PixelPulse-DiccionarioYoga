@@ -9,6 +9,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
@@ -56,6 +57,7 @@ namespace PixelPulse_DiccionarioYogaV3
         private async void BusquedaButton_Click(object sender, EventArgs e)
         {
             string textoAMorfema = BusquedaTextBox.Text.Trim();
+            textoAMorfema = Regex.Replace(textoAMorfema, @"\s+", " ");
 
             // Verificar si el texto está vacío o solo contiene números
             if (string.IsNullOrWhiteSpace(textoAMorfema))
@@ -92,13 +94,16 @@ namespace PixelPulse_DiccionarioYogaV3
             }
 
             lblPostura.Text = posturaDto.Postura.NombreSans;
-            ESTextBox.Text = posturaDto.Postura.NombreEn;
+            ESTextBox.Text = posturaDto.Postura.NombreEs;
             ENTextBox.Text = posturaDto.Postura.NombreEn;
+
+
             foreach (Morfema morfema in posturaDto.Morfemas)
             {
-                MorfemaTextBox.Text += morfema.MorfemaSans + ": " + morfema.MorfemaEs + Environment.NewLine;
+                MorfemasLB.Items.Add(morfema.MorfemaSans + ": " + morfema.MorfemaEs);
             }
-
+            
+      
             ReproducirVideo(posturaDto.Postura.VideoURL);
             BusquedaTextBox.Text = string.Empty;
         }
@@ -120,7 +125,7 @@ namespace PixelPulse_DiccionarioYogaV3
             lblPostura.Text = "Postura";
             ENTextBox.Text = "";
             ESTextBox.Text = "";
-            MorfemaTextBox.Text = "";
+            MorfemasLB.Items.Clear();
             videoPostura.DocumentText = string.Empty;
         }
 
