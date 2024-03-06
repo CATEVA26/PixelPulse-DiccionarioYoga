@@ -17,9 +17,5 @@ namespace PixelPulse_DiccionarioYogaV3.DAO
         {
 
         }
-        public static Object BuscarBySans(Object obj)
-        {
-            return null;
-        }
     }
 }

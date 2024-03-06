@@ -1,9 +1,9 @@
 C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\obj\Debug\PixelPulse-DiccionarioYogaV3.csproj.AssemblyReference.cache
+C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\obj\Debug\PixelPulse_DiccionarioYogaV3.View.AniadirPostura.resources
+C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\obj\Debug\PixelPulse_DiccionarioYogaV3.Form1.resources
 C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\obj\Debug\PixelPulse_DiccionarioYogaV3.Properties.Resources.resources
-C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\obj\Debug\PixelPulse_DiccionarioYogaV3.Res.resources
 C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\obj\Debug\PixelPulse-DiccionarioYogaV3.csproj.GenerateResource.cache
 C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\obj\Debug\PixelPulse-DiccionarioYogaV3.csproj.CoreCompileInputs.cache
-C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\obj\Debug\PixelPulse_DiccionarioYogaV3.Form1.resources
 C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\bin\Debug\PixelPulse-DiccionarioYogaV3.exe.config
 C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\bin\Debug\PixelPulse-DiccionarioYogaV3.exe
 C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\bin\Debug\PixelPulse-DiccionarioYogaV3.pdb
@@ -39,3 +39,4 @@ C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-D
 C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\obj\Debug\PixelPul.59574CA7.Up2Date
 C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\obj\Debug\PixelPulse-DiccionarioYogaV3.exe
 C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\obj\Debug\PixelPulse-DiccionarioYogaV3.pdb
+C:\Users\georg\OneDrive\Documents\GitHub\PixelPulse-DiccionarioYoga\PixelPulse-DiccionarioYogaV3\PixelPulse-DiccionarioYogaV3\obj\Debug\PixelPulse_DiccionarioYogaV3.View.AniadirMorfema.resources

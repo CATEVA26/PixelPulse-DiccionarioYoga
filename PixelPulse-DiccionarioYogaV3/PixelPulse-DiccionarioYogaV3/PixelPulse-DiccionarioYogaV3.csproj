@@ -96,10 +96,22 @@
     <Compile Include="DAO\MorfemaDAO.cs" />
     <Compile Include="DAO\ObjBaseDAO.cs" />
     <Compile Include="DAO\PosturaDAO.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="View\AniadirMorfema.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="View\AniadirMorfema.Designer.cs">
+      <DependentUpon>AniadirMorfema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\AniadirPostura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AniadirPostura.Designer.cs">
+      <DependentUpon>AniadirPostura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -107,9 +119,13 @@
     <Compile Include="Model\Postura.cs" />
     <Compile Include="Model\PosturaDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Res.Designer.cs" />
-    <Compile Include="Res1.Designer.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="View\AniadirMorfema.resx">
+      <DependentUpon>AniadirMorfema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AniadirPostura.resx">
+      <DependentUpon>AniadirPostura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -120,8 +136,8 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Res.resx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -137,7 +153,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="View\" />
+    <None Include="Resources\delete.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

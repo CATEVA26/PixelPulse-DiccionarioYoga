@@ -35,8 +35,8 @@ namespace PixelPulse_DiccionarioYogaV3.Model
 
         public int IdPostura { get => idPostura; set => idPostura = value; }
         public string NombreSans { get => nombreSans; set => nombreSans = value; }
-        public string TraduccionEs { get => nombreEs; set => nombreEs = value; }
-        public string TraduccionEn { get => nombreEn; set => nombreEn = value; }
+        public string NombreEs { get => nombreEs; set => nombreEs = value; }
+        public string NombreEn { get => nombreEn; set => nombreEn = value; }
         public string VideoURL { get => videoURL; set => videoURL = value; }
         
     }

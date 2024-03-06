@@ -117,79 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="abajo" xml:space="preserve">
-    <value>abajo</value>
-  </data>
-  <data name="arbol" xml:space="preserve">
-    <value>árbol</value>
-  </data>
-  <data name="arriba" xml:space="preserve">
-    <value>arriba</value>
-  </data>
-  <data name="cabeza" xml:space="preserve">
-    <value>cabeza</value>
-  </data>
-  <data name="cadaver" xml:space="preserve">
-    <value>cadáver</value>
-  </data>
-  <data name="cobra" xml:space="preserve">
-    <value>cobra</value>
-  </data>
-  <data name="guerrero" xml:space="preserve">
-    <value>guerrero</value>
-  </data>
-  <data name="guirnalda" xml:space="preserve">
-    <value>guirnalda</value>
-  </data>
-  <data name="invertido" xml:space="preserve">
-    <value>invertido</value>
-  </data>
-  <data name="mano" xml:space="preserve">
-    <value>mano</value>
-  </data>
-  <data name="mitad" xml:space="preserve">
-    <value>mitad</value>
-  </data>
-  <data name="montania" xml:space="preserve">
-    <value>montaña</value>
-  </data>
-  <data name="ninio" xml:space="preserve">
-    <value>niño</value>
-  </data>
-  <data name="oeste" xml:space="preserve">
-    <value>oeste</value>
-  </data>
-  <data name="paloma" xml:space="preserve">
-    <value>paloma</value>
-  </data>
-  <data name="perro" xml:space="preserve">
-    <value>perro</value>
-  </data>
-  <data name="pez" xml:space="preserve">
-    <value>pez</value>
-  </data>
-  <data name="pie" xml:space="preserve">
-    <value>pie</value>
-  </data>
-  <data name="postura" xml:space="preserve">
-    <value>postura</value>
-  </data>
-  <data name="puente" xml:space="preserve">
-    <value>puente</value>
-  </data>
-  <data name="real" xml:space="preserve">
-    <value>real</value>
-  </data>
-  <data name="rodilla" xml:space="preserve">
-    <value>rodilla</value>
-  </data>
-  <data name="rostro" xml:space="preserve">
-    <value>rostro</value>
-  </data>
-  <data name="triangulo" xml:space="preserve">
-    <value>triángulo</value>
-  </data>
-  <data name="uno" xml:space="preserve">
-    <value>uno</value>
-  </data>
+  <metadata name="idMorfema.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="es.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="sanscrito.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

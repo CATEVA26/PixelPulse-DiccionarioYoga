@@ -1,5 +1,6 @@
 ﻿using PixelPulse_DiccionarioYogaV3.DAO;
 using PixelPulse_DiccionarioYogaV3.Model;
+using PixelPulse_DiccionarioYogaV3.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -91,41 +92,15 @@ namespace PixelPulse_DiccionarioYogaV3
             }
 
             lblPostura.Text = posturaDto.Postura.NombreSans;
-            ESTextBox.Text = posturaDto.Postura.TraduccionEs;
-            ENTextBox.Text = posturaDto.Postura.TraduccionEn;
+            ESTextBox.Text = posturaDto.Postura.NombreEn;
+            ENTextBox.Text = posturaDto.Postura.NombreEn;
             foreach (Morfema morfema in posturaDto.Morfemas)
             {
                 MorfemaTextBox.Text += morfema.MorfemaSans + ": " + morfema.MorfemaEs + Environment.NewLine;
             }
 
             ReproducirVideo(posturaDto.Postura.VideoURL);
-
-            //var Traductor = new Traductor();
-            //Postura postura = new Postura(textoAMorfema);
-
-            ////MorfemaTextBox.Text = string.Join("\r\n", postura.GetMorfemas());
-            //MorfemaTextBox.Text = string.Join("\r\n", postura.GetMorfemas()?.Where(m => m != null) ?? Enumerable.Empty<string>());
-
-            //ESTextBox.Text = postura.GetDescripcion();
-            //ENTextBox.Text = await Traductor.Traducir(postura.GetDescripcion());
-            //if (ENTextBox.Equals(string.Empty))
-            //{
-            //    MessageBox.Show("No se ha podido realizar la traducción. \nPor favor, intente nuevamente más tarde.",
-            //                "Error de traducción.", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    return;
-
-            //}
-            //string traduccionAEs = postura.TraducirAEs(textoAMorfema);
-            //if (traduccionAEs == null)
-            //{
-
-            //    ENTextBox.Text = "";
-            //    MessageBox.Show($"La palabra '{@textoAMorfema}' no se encuentra en el diccionario. \nPor favor, ingrese una palabra que esté en el diccionario.",
-            //                $"Palabra no encontrada.", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    return;
-            //}
-            //ReproducirVideo(postura.GetVideo());
-            //BusquedaTextBox.Text = string.Empty;
+            BusquedaTextBox.Text = string.Empty;
         }
 
         private void ReproducirVideo(string url)
@@ -176,6 +151,12 @@ namespace PixelPulse_DiccionarioYogaV3
         private void BusquedaTextBox_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void siticoneButton1_Click(object sender, EventArgs e)
+        {
+            AniadirPostura aniadirPostura = new AniadirPostura();
+            aniadirPostura.ShowDialog();
         }
     }
 }
