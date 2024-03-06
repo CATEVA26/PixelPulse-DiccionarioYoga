@@ -88,6 +88,11 @@ Somos un grupo de estudiantes con la intención de crear software de calidad apr
 
 Este diccionario tri-idiomático es una herramienta versátil que mejora la accesibilidad, la enseñanza y la práctica del yoga en un contexto global gracias a su interfaz, por otro lado fomenta la inclusión y el respeto por la diversidad lingüística y cultural.
 
+- ### ¿Como ejecuto el programa?
+-El programa tiene como pre-requisitos: 
+* Instalar XAMPP
+   * Ejecutar el servicio de mysql
+
 ## Optimizaciones
 
 El software realiza correctamente la búsqueda en menos de 1500 milisegundos, es decir, 1.5
